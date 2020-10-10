@@ -1,0 +1,131 @@
+html {
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  padding: 0 2rem;
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 80%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+}
+
+header {
+  padding: 2rem 0;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+h1 {
+  font-family: "Inconsolata", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #333;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 52px;
+  color: #333;
+}
+
+@media screen and (min-width: 1400px) {
+  h2 {
+    font-size: 64px;
+  }
+}
+
+p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #4f4F4F;
+}
+
+@media screen and (min-width: 1400px) {
+  p {
+    width: 50%;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 1400px) {
+  img {
+    max-width: 70%;
+  }
+}
+
+a {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #333;
+  padding: 20px 30px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 1400px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+main div:first-child {
+  text-align: center;
+}
+
+main div:last-child {
+  font-family: "Space Mono", sans-serif;
+}
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  padding: 5rem 2rem 2rem 2rem;
+}
